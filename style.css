@@ -1,4 +1,10 @@
 
+.premiere {
+	font-size: 20px;
+	font-family: helvetica;
+
+}
+	
 
 .bg-light {
   background-color: #89c5dc!important;
@@ -6,6 +12,15 @@
 
 .logo {
 	max-width: 100px;
+}
+
+
+.divcarousel h5 {
+	font-size: 30px;
+}
+
+.divcarousel p {
+	font-size: 20px;	
 }
 
 .card-body {
@@ -22,6 +37,10 @@
 	width: 90px;
 }
 
+.card-text {
+	display: flex;
+	justify-content: center;
+}
 
 
 .deuxpartie h6 {
@@ -32,4 +51,41 @@
 
 .deuxpartie p {
 	font-size: 20px;
+}
+
+
+.col-4 img {
+	max-width: 490px;
+}
+
+@media screen and (max-width: 992px) {
+
+	.divcarousel img {
+		max-width: 100%;
+	}
+
+	.deuxpartie img {
+		max-width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.divcarousel img {
+		max-width: 100%;
+
+	}
+
+	.col-8 p {
+	max-width: 100%;
+
+	}
+
+	.col-4 img {
+		max-width: 100%;
+	}
+
+	
 }
