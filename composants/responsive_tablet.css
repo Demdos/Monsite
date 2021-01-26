@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+
+	.divcarousel img {
+		max-width: 100%;
+	}
+
+	.col-4 {
+    	display: block!important;
+    	width: 100%!important;
+    }
+
+    .col-8 {
+    	width: 100%;
+    }
+
+}
